@@ -13,10 +13,8 @@
 | 🌿 | Branches | [Ver comandos](#-branches) |
 | 🔄 | Sincronização | [Ver comandos](#-sincronização) |
 | 🏷️ | Tags e Releases | [Ver comandos](#️-tags-e-releases) |
-| 📝 | Histórico e Logs | [Ver comandos](#-histórico-e-logs) |
 | 🔀 | Merge e Rebase | [Ver comandos](#-merge-e-rebase) |
 | 🎯 | Múltiplos Remotos | [Ver comandos](#-múltiplos-repositórios-remotos) |
-| 💡 | Dicas Avançadas | [Ver comandos](#-dicas-avançadas) |
 | 🆘 | Solução de Problemas | [Ver comandos](#-solução-de-problemas) |
 
 ---
@@ -40,6 +38,15 @@ git config --global pull.rebase false                    # Define merge como pad
 # Verificar configurações
 git config --list                                        # Lista todas as configurações
 git config user.name                                     # Verifica uma configuração específica
+```
+
+### Aliases Úteis (Atalhos)
+```bash
+# Criar atalhos para comandos frequentes
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.cm commit
 ```
 
 ---
